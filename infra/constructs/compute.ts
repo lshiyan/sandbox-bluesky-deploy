@@ -148,8 +148,8 @@ export class Compute extends Construct {
     });
 
     // PDS will verify users at endpoints like:
-    // https://<userhandle>.sandboxsocial3.net/.well-known/atproto-did
-    // This wildcard record will route *.sandboxsocial3.net to the ALB
+    // https://<userhandle>.socialsandbox3.net/.well-known/atproto-did
+    // This wildcard record will route *.socialsandbox3.net to the ALB
     new route53.ARecord(this, 'WildcardDNS', {
       zone: props.network.hostedZone,
       recordName: `*.${props.domainName}`,
