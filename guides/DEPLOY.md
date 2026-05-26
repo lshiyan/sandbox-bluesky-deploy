@@ -15,7 +15,7 @@ You must also have [the AWS CDK CLI installed](https://docs.aws.amazon.com/cdk/v
 
 Fork this GitHub repository.
 Replace all references to 'exampleuser' with your own GitHub username in your forked repository.
-Replace all references to 'example.com' with your own domain name.
+Replace all references to 'sandboxsocial3.net' with your own domain name.
 
 The CDK template will deploy to us-east-2 region by default. If you wish to deploy to a different region,
 find and replace all references to 'us-east-2'.
@@ -64,13 +64,13 @@ cdk deploy --profile default --app 'node service.js'
 Your PDS should now be accessible:
 
 ```bash
-curl https://example.com/xrpc/_health
+curl https://sandboxsocial3.net/xrpc/_health
 ```
 
 WebSockets should also work:
 
 ```bash
-wsdump "wss://example.com/xrpc/com.atproto.sync.subscribeRepos?cursor=0"
+wsdump "wss://sandboxsocial3.net/xrpc/com.atproto.sync.subscribeRepos?cursor=0"
 ```
 
 And the pdsadmin command should work:
