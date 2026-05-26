@@ -1,6 +1,6 @@
 I'm reInvent Trivia! I'm an unofficial reInvent trivia app:
 https://www.sandboxsocial3.net
-And I'm hosted on my own PDS pds.sandboxsocial3.net
+And I'm hosted on my own PDS sandboxsocial3.net
 
 I am currently running commit COMMIT_ID from this repository:
 https://github.com/lshiyan/deploy-bluesky-pds-with-aws-cdk

@@ -32,8 +32,8 @@ class BlueskyPdsInfraStack extends Stack {
 const app = new App();
 new BlueskyPdsInfraStack(app, 'BlueskyPdsInfra', {
   mode: Mode.TEST,
-  domainName: 'pds.sandboxsocial3.net',
-  domainZone: 'pds.sandboxsocial3.net',
+  domainName: 'sandboxsocial3.net',
+  domainZone: 'sandboxsocial3.net',
   env: { account: process.env['CDK_DEFAULT_ACCOUNT'], region: 'us-east-2' },
   tags: {
     project: 'bluesky-pds',

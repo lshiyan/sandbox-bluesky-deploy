@@ -114,7 +114,7 @@ Note that account email addresses will still need to be pre-verified in SES, as 
 
 You can use the Bluesky app to connect to your PDS.
 When logging in through the app, select 'Custom' hosting provider,
-and enter the domain name of your PDS (e.g. `pds.sandboxsocial3.net`).
+and enter the domain name of your PDS (e.g. `sandboxsocial3.net`).
 
 If you get "Invalid handle" when viewing your profile on Bluesky,
 use [Bluesky Debug](https://bsky-debug.app/handle) to check if
